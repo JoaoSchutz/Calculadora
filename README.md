@@ -6,6 +6,8 @@ Após adicionar todos os buttons correspondentes aos números de 0 a 9 e os bot�
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+ O Botão da soma realiza uma estrutura if/else que quando o usuário coloca o valor e clica em +, um label mostra o sinal positivo.
+ 
         private void button4_Click(object sender, EventArgs e)
         {
             if (txtResultado.Text != "")
@@ -20,8 +22,6 @@ Após adicionar todos os buttons correspondentes aos números de 0 a 9 e os bot�
                 MessageBox.Show("Informe um valor para somar.");
             }
         }
-     
-     O Botão da soma realiza uma estrutura if/else que quando o usuário coloca o valor e clica em +, um label mostra o sinal positivo.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
